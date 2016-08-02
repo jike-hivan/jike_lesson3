@@ -1,0 +1,92 @@
+/*reset */
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+
+/*头部*/
+.header {
+  height: 120px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+}
+
+/*内容部分外层框架*/
+.article{
+  margin-top:20px;
+  margin-bottom:20px;
+  overflow: hidden;
+}
+
+/*左边栏*/
+.left {
+  width: 150px;
+  float: left;
+  margin-left: -100%;
+  padding-bottom: 999px;
+  margin-bottom: -999px;
+  background-color: #eee;
+}
+
+/*左边栏菜单，应用旧盒子居中*/
+.left ul li{
+  height: 36px;
+  display:-webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+}
+
+
+/*右边栏*/
+.right {
+  width: 250px;
+  float:left;
+  margin-left: -250px;
+  padding-bottom: 999px;
+  margin-bottom: -999px;
+  background-color: #eee;
+}
+
+.right .adv{
+  width: 244px;
+  height: 244px;
+  background-color: orange;
+  margin-top:10px;
+}
+.right .adv:first-child{
+  margin-top: 0;
+}
+
+
+/*中间内容部分*/
+.content {
+  float: left;
+  width: 100%;
+}
+
+.content-inner{
+  margin-left: 170px;
+  margin-right: 270px;
+  background-color: #ddd;
+}
+
+
+/*底部， 应用新盒子居中*/
+.footer {
+  height: 70px;
+  background-color: #333;
+  color: #eee;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
